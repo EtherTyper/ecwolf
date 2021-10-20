@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.5.0)
 project(ECWolf)
 
+SET(CMAKE_EXE_LINKER_FLAGS "-framework Cocoa")
+
 if(POLICY CMP0054)
 	cmake_policy(SET CMP0054 NEW)
 endif()
